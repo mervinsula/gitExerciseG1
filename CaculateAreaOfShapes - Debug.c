@@ -100,13 +100,13 @@ void calAreaOfTriangle(){
 * This function calculates the area of a square.
 */
 void calAreaOfSquare(){
-   Int side, area;
+   int side, area;
  
    printf("\nEnter the Length of Side : ");
    scanf("%d", &side);
  
    area = side * side;
-   printf("\nArea of Square : %d", areas);
+   printf("\nArea of Square : %d", area);
    getch();
 }
 
