@@ -70,7 +70,7 @@ void calAreaOfCircle() {
    float radius;
    double area;
    printf("\nEnter the radius of Circle : ");
-   scanf("%d", &radius);
+   scanf("%f", &radius);
  
    area = 3.14 * (radius * radius);
    printf("\nArea of Circle : %.2f", area);
