@@ -85,12 +85,12 @@ void calAreaOfTriangle(){
    int side;
    float area, r_4;
  
-   r 4 = sqrt(3) / 4;
+   r_4 = sqrt(3) / 4;
  
    printf("\nEnter the Length of Side : ");
    scanf("%d", &side);
  
-   area = r_4 * side * side
+   area = r_4 * side * side;
  
    printf("\nArea of Equilateral Triangle : %f", area);
    getch();
@@ -117,12 +117,12 @@ void calAreaOfRectangle(){
 	   int length, breadth, area;
  
    printf("\nEnter the Length of Rectangle : ");
-   scanf("%", &length);
+   scanf("%d", &length);
  
    printf("\nEnter the Breadth of Rectangle : ");
    scanf("%d", &breadth);
  
    area = length * breadth;
-   printf("\nArea of Rectangle : %d", AREA);
+   printf("\nArea of Rectangle : %d", area);
       getch();
 }
